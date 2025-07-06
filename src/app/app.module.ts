@@ -4,7 +4,6 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     AppRoutingModule,
     NgxTypedJsModule,
     BrowserAnimationsModule,
-    CarouselModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
