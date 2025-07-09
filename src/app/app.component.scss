@@ -226,20 +226,23 @@
     margin-right: 0;
   }
   
-  .home .home-content .text-1 {
-    font-size: 27px;
-  }
-  
-  .home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
-    margin-left: -3px;
-  }
-  
-  .home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
-  }
+ .home .home-content .text-1 {
+  font-size: 27px;
+  margin-bottom: 44px; /* add spacing below this line */
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+  margin-bottom: 44px; /* spacing before the next line */
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
   
   /* Linear Gradient */
   .home .home-content .text-3 span {
@@ -1149,7 +1152,7 @@
       height: 100%;
       border-radius: 12px;
       backface-visibility: hidden;
-      background-color: #222;
+      background-color: #727863;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
       display: flex;
       flex-direction: column;
@@ -1260,7 +1263,7 @@
     height: 100%;
     border-radius: 12px;
     backface-visibility: hidden;
-    background-color: #222;
+    background-color: #727863;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
