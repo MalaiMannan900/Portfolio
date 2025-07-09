@@ -904,35 +904,49 @@
   }
   
   @media (max-width: 500px) {
-    .home .home-content .text-2 {
-      font-size: 50px;
-    }
-    .home .home-content .text-3 {
-      font-size: 27px;
-    }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text {
-      font-size: 19px;
-    }
-    .contact .right form .fields {
-      flex-direction: column;
-    }
-    .contact .right form .name,
-    .contact .right form .email {
-      margin: 0;
-    }
-    .right form .error-box {
-      width: 150px;
-    }
-    .scroll-up-btn {
-      right: 15px;
-      bottom: 15px;
-      height: 38px;
-      width: 35px;
-      font-size: 23px;
-      line-height: 38px;
-    }
+  .home .home-content .text-1 {
+    margin-bottom: 10px; /* spacing after 'Hello, This is' */
   }
+
+ .home .home-content .text-3 {
+  font-size: 40px;
+  margin-top: 15px;   /* space above */
+  margin-bottom: 10px; /* optional spacing below */
+}
+  .home .home-content .text-3 {
+    font-size: 27px;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+
+  .about .about-content .right .text,
+  .skills .skills-content .left .text {
+    font-size: 19px;
+  }
+
+  .contact .right form .fields {
+    flex-direction: column;
+  }
+
+  .contact .right form .name,
+  .contact .right form .email {
+    margin: 0;
+  }
+
+  .right form .error-box {
+    width: 150px;
+  }
+
+  .scroll-up-btn {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
+}
+
 
 
 
