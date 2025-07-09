@@ -905,14 +905,15 @@
   
   @media (max-width: 500px) {
   .home .home-content .text-1 {
-    margin-bottom: 10px; /* spacing after 'Hello, This is' */
+    font-size: 20px;
+    margin-bottom: 8px;
   }
 
- .home .home-content .text-2 {
+  .home .home-content .text-2 {
     font-size: 50px;
     margin-bottom: 10px;
-    word-break: break-word;
-    white-space: normal;
+    text-align: center;       /* Optional */
+    line-height: 1.2;         /* Optional for tighter spacing */
   }
 
   .home .home-content .text-3 {
